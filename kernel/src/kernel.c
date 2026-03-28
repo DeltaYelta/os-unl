@@ -31,10 +31,10 @@ void kernel_main() {
 	keyboard_init();
 	ata_init();
 	proc_init();
-	bga_init();
+	// bga_init();
 
-	bga_clear(0xAA0000);
-	bga_draw_rect(100, 100, 80, 24, 0xFFFFFF);
+	// bga_clear(0xAA0000);
+	// bga_draw_rect(100, 100, 80, 24, 0xFFFFFF);
 
 	proc_exec("/bin/init", NULL);
 	while (1) {
