@@ -41,4 +41,4 @@ void memory_free(u64, void*, u64);
 
 u64 memory_pm_get();
 u64 memory_pm_new();
-void memory_pm_free();
+void memory_pm_free(u64);

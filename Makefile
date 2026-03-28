@@ -2,6 +2,7 @@ SYSROOT:=build/rootfs
 BINDIR:=$(SYSROOT)/bin
 INCDIR:=$(SYSROOT)/include
 LIBDIR:=$(SYSROOT)/lib
+SHELL:=/usr/bin/bash
 
 AS:=x86_64-elf-as
 AR:=x86_64-elf-ar
